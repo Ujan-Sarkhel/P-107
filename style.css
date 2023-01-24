@@ -1,0 +1,29 @@
+#intro
+{
+    background-color: grey; 
+    position: fixed;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0px;
+    width: 100%;
+}
+
+footer 
+{
+    text-align: center;
+    padding: 3px;
+    background-color: #f5f5f5;
+    color: darkgrey;
+    font-family: 'Roboto Slab', serif;
+}
+#main_div
+{
+    margin-top: 100px;
+    width:220px
+}
+
+#image_default
+{
+    height: 350px;
+    width: 200px;
+    position: center
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Sound Identification</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="main.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="intro">
+    <center>
+    <h2>Sound Controlled Animals</h2>
+    <h3>Note: Play different sounds like barking, meowing</h3>
+    </center>
+</div>
+<br>
+<center>
+<div id="main_div"> 
+    
+        <div>
+            <button class="btn btn-info" onclick="startClassification()">START</button>
+            </div>
+            <br>
+<label id="dog">I can hear - </label>
+<br><br>
+<label id="sui"></label>
+
+    <br><br><br>
+    <img src="listen.gif" id="image_default">
+    
+    
+</div>
+</center>
+
+
+<footer>
+    <center>
+    <p>Developed By - 
+        Ujan</p>
+        </center>
+  </footer>
+        
+
+</body>
+</html>
